@@ -461,6 +461,11 @@ h6 {
     background: var(--bg-section);
 }
 
+.section-dark {
+    background: var(--primary-dark);
+    color: var(--text-light);
+}
+
 .section-dark h2,
 .section-dark h3 {
     color: var(--text-light);
@@ -621,10 +626,12 @@ h6 {
 
 /* Dark cards */
 .section-dark .card {
+    background: rgba(255, 255, 255, 0.05);
     border-color: rgba(255, 255, 255, 0.1);
 }
 
 .section-dark .card:hover {
+    background: rgba(255, 255, 255, 0.08);
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
 }
 
