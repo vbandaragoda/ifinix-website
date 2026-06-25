@@ -4,7 +4,7 @@
 :root {
     --primary: #3a3a80;
     --primary-dark: #0c0624;
-    --primary-light: #5a5ab0;
+    --primary-light: #ffa912;
     --accent-gradient: linear-gradient(135deg, #3a3a80 0%, #6a4c93 50%, #3a3a80 100%);
     --text-dark: #1a1a2e;
     --text-body: #333;
@@ -291,12 +291,11 @@ h1, h2, h3, h4, h5, h6 { font-weight: 700; line-height: 1.2; color: var(--text-d
     font-size: 28px;
     font-weight: 800;
     margin-bottom: 20px;
-    max-width: 700px;
+    
 }
 .section-intro {
     font-size: 16px;
     line-height: 1.8;
-    max-width: 700px;
     margin-bottom: 48px;
     color: var(--text-muted);
 }
