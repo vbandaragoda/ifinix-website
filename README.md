@@ -2,20 +2,22 @@
 
 This is an organized copy of the IFINITY website saved from WordPress. It serves as a reference for the ReactJS development team to understand the content structure, styling, and animations.
 
-## Project Structure
+---
+
+## 📁 Project Structure
 
 ```text
 ifinix-website/
 ├── index.html                 # Entry point (redirects to home page)
 ├── README.md                  # This file
-├── pages/                     # All HTML pages
+├── pages/
 │   ├── home.html              # Home page
 │   ├── about.html             # About page
 │   ├── capabilities.html      # Capabilities page
 │   ├── careers.html           # Careers page
 │   └── news.html              # News page
-└── assets/                    # All website assets
-    ├── css/                   # CSS stylesheets
+└── assets/
+    ├── css/
     │   ├── admin-bar.min.css
     │   ├── dashicons.min.css
     │   ├── dflip.min.css
@@ -26,125 +28,172 @@ ifinix-website/
     │   ├── styles.css
     │   ├── jquery.fancybox.min.css
     │   ├── home.min.css
-    │   └── ... other CSS files
-    ├── js/                    # JavaScript files
-    │   ├── all library scripts
-    │   └── page-specific scripts
-    └── images, videos, and other media files
+    │   └── ... (other CSS files)
+    ├── js/
+    │   ├── (all library scripts)
+    │   └── (page-specific scripts)
+    └── (images, videos, and other media files)
 ```
-
-## Pages Overview
-
-### 1. Home (`pages/home.html`)
-
-* Hero banner with video background
-* "What We Do" section
-* "Two in One" section with capabilities slider
-* Call-to-action buttons
-* Animations and transitions
-
-### 2. About (`pages/about.html`)
-
-* Company information and core banking solutions
-* Company history and background
-* Team and organizational details
-
-### 3. Capabilities (`pages/capabilities.html`)
-
-* Banking Applications
-* Integration and Automation
-* Data and AI
-* Security, Risk, and Compliance
-* Cloud Services
-* IFINITY Products
-* Support Services
-* Managed Services
-
-### 4. Careers (`pages/careers.html`)
-
-* Job opportunities
-* Company culture
-* Career growth information
-
-### 5. News (`pages/news.html`)
-
-* Latest news and updates
-* Blog posts or announcements
-
-## How to View
-
-### Option 1: Open the entry file
-
-Open `index.html` in a web browser. It will redirect to the home page.
-
-### Option 2: Open a page directly
-
-You can also open any page from the `pages/` folder:
-
-* `pages/home.html`
-* `pages/about.html`
-* `pages/capabilities.html`
-* `pages/careers.html`
-* `pages/news.html`
-
-## Key Features Preserved
-
-* ✅ **Navigation Bar**: Sticky navigation with site logo and menu links
-* ✅ **Footer**: Consistent footer with copyright and company information
-* ✅ **Animations**: Scroll animations, transitions, and interactive elements
-* ✅ **Styling**: Original CSS and styling preserved
-* ✅ **Media**: Images, videos, and multimedia elements preserved
-* ✅ **Google Fonts**: Font imports and web typography preserved
-* ✅ **Third-party Libraries**: Owl Carousel, FancyBox, and other dependencies preserved
-
-## Asset References
-
-All asset paths have been updated to point to the centralized `assets/` folder:
-
-* CSS files are located in `assets/css/`
-* JavaScript files are located in `assets/js/`
-* Images and media files are located in `assets/` and organized by subdirectories
-
-## Important Notes for ReactJS Development
-
-1. **External URLs**
-   Some assets still reference external CDN URLs, such as Google Fonts and Google Tag Manager.
-
-2. **Videos**
-   Some video sources link to external Vimeo URLs with specific signature parameters.
-
-3. **Animations**
-   Custom animations are defined in CSS files. Review `home.min.css` and `style.min.css` for animation patterns.
-
-4. **Component Structure**
-   The HTML maintains semantic structure with sections such as:
-
-   * Headers and navigation
-   * Hero sections
-   * Content sections, including capabilities and features
-   * Call-to-action buttons
-   * Carousels and sliders
-   * Forms
-   * Footer
-
-## Development Guidelines
-
-When converting to ReactJS:
-
-* Decompose each section into reusable React components
-* Migrate CSS to CSS Modules, styled-components, or Tailwind CSS
-* Extract animation patterns and convert them to appropriate React animation libraries
-* Maintain the navigation structure and page hierarchy
-* Preserve all content and styling details
-* Test responsive design across all breakpoints
-
-## File Sizes and Optimization
-
-* CSS files are minified using `.min.css`
-* JavaScript files are minified and optimized
-* Images are optimized but not compressed further for the web
 
 ---
 
-**Created for:** ReactJS development team reference
-**Last updated:** 2026-06-22
+## 📄 Pages Overview
+
+### 🏠 Home (`pages/home.html`)
+
+- Hero banner with video background
+- "What We Do" section
+- "Two in One" section with capabilities slider
+- Call-to-action buttons
+- Animations and transitions
+
+### 👥 About (`pages/about.html`)
+
+- Company information and core banking solutions
+- Company history and background
+- Team and organizational details
+
+### ⚙️ Capabilities (`pages/capabilities.html`)
+
+- Banking Applications
+- Integration and Automation
+- Data and AI
+- Security, Risk, and Compliance
+- Cloud Services
+- IFINITY Products
+- Support Services
+- Managed Services
+
+### 💼 Careers (`pages/careers.html`)
+
+- Job opportunities
+- Company culture
+- Career growth information
+
+### 📰 News (`pages/news.html`)
+
+- Latest news and updates
+- Blog posts or announcements
+
+---
+
+## 🚀 How to View
+
+### Option 1
+
+Open `index.html` in any web browser.
+
+### Option 2
+
+Open any page directly:
+
+- `pages/home.html`
+- `pages/about.html`
+- `pages/capabilities.html`
+- `pages/careers.html`
+- `pages/news.html`
+
+---
+
+## ✨ Key Features Preserved
+
+- ✅ Sticky navigation bar
+- ✅ Responsive footer
+- ✅ Scroll animations and transitions
+- ✅ Original CSS styling
+- ✅ Images and video assets
+- ✅ Google Fonts
+- ✅ Third-party libraries (Owl Carousel, FancyBox, etc.)
+
+---
+
+## 📂 Asset References
+
+All assets have been centralized under the `assets/` directory.
+
+| Asset | Location |
+|-------|----------|
+| CSS | `assets/css/` |
+| JavaScript | `assets/js/` |
+| Images | `assets/` |
+| Videos | `assets/` |
+
+---
+
+## 📝 Important Notes for ReactJS Development
+
+### External URLs
+
+Some assets still reference external services such as:
+
+- Google Fonts
+- Google Tag Manager
+- External CDNs
+
+### Videos
+
+Some videos are loaded from Vimeo using signed URLs.
+
+### Animations
+
+Review these files for animation logic:
+
+- `assets/css/home.min.css`
+- `assets/css/style.min.css`
+
+### Component Structure
+
+The HTML is already organized into reusable sections:
+
+- Header
+- Navigation
+- Hero Banner
+- Content Sections
+- Feature Cards
+- Call-to-Action
+- Forms
+- Footer
+
+---
+
+## 🛠 Development Guidelines
+
+When converting to ReactJS:
+
+- Break each section into reusable components.
+- Convert CSS into CSS Modules, Styled Components, or Tailwind CSS.
+- Replace jQuery-based interactions with React equivalents.
+- Preserve animations and responsive layouts.
+- Maintain page hierarchy and navigation.
+- Test across desktop, tablet, and mobile devices.
+
+---
+
+## ⚡ Optimization
+
+- CSS is minified.
+- JavaScript is minified.
+- Images are web optimized.
+- Media assets are preserved.
+
+---
+
+## 📌 Purpose
+
+This repository is intended **only as a reference** for rebuilding the IFINITY website in ReactJS.
+
+It preserves:
+
+- Content
+- Layout
+- Styling
+- Animations
+- Media assets
+
+while serving as the source for component-based development.
+
+---
+
+**Created for:** ReactJS Development Team
+
+**Last Updated:** 2026-06-22
